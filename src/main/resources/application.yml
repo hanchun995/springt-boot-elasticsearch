@@ -1,0 +1,8 @@
+server:
+  context-path: /
+  port: 80
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 192.168.1.186:9300
